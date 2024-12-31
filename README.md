@@ -1,4 +1,3 @@
-# KTC-Hackathon
 Fraud Detection System - KTC 💳🔍
 This project implements a robust Fraud Detection System for financial transactions using machine learning techniques, including XGBoost, to classify transactions as fraudulent or non-fraudulent. By analyzing transaction patterns and leveraging advanced models, the system ensures high accuracy and provides actionable insights for financial security.
 
@@ -49,7 +48,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone (https://github.com/Samik123Mit/KTC-Hackathon.git)  
+git clone https://github.com/Samik123Mit/KTC-Hackathon.git  
 Install Dependencies:
 Install all required libraries from requirements.txt:
 
@@ -76,4 +75,3 @@ Experiment with additional ensemble learning models (e.g., Random Forest, LightG
 Address class imbalance using techniques like SMOTE or ADASYN.
 Integrate with financial systems for live deployment.
 Feel free to explore, contribute, and enhance this project! 🚀
-
