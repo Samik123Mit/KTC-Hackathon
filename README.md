@@ -3,6 +3,7 @@
 This project implements a robust Fraud Detection System for financial transactions using machine learning techniques, including XGBoost, to classify transactions as fraudulent or non-fraudulent. By analyzing transaction patterns and leveraging advanced models, the system ensures high accuracy and provides actionable insights for financial security.
 
 📚 **Overview**
+
 Fraudulent activities in financial transactions pose a significant risk to businesses and customers. This project addresses this challenge using a supervised learning approach, including data preprocessing, exploratory data analysis (EDA), advanced machine learning models, and evaluation metrics to build an effective fraud detection system.
 
 🔑 **Key Features**
