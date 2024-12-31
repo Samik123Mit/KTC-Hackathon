@@ -2,7 +2,7 @@
 
 This project implements a robust Fraud Detection System for financial transactions using machine learning techniques, including XGBoost, to classify transactions as fraudulent or non-fraudulent. By analyzing transaction patterns and leveraging advanced models, the system ensures high accuracy and provides actionable insights for financial security.
 
-📚**** Overview****
+📚 **Overview**
 Fraudulent activities in financial transactions pose a significant risk to businesses and customers. This project addresses this challenge using a supervised learning approach, including data preprocessing, exploratory data analysis (EDA), advanced machine learning models, and evaluation metrics to build an effective fraud detection system.
 
 🔑 **Key Features**
@@ -29,17 +29,19 @@ Addressed class imbalance to ensure effective model training.
 Implemented XGBoost (Extreme Gradient Boosting), a powerful and efficient gradient-boosting algorithm, for fraud detection.
 Additionally explored Logistic Regression for baseline comparisons.
 Split the dataset into training and testing sets using an 80:20 ratio.
-Evaluation Metrics:
+
+6. Evaluation Metrics:
 Accuracy Score: Assesses overall correctness of the model.
 Precision, Recall, F1-Score: Evaluates performance in fraud classification.
 AUC-ROC Curve: Highlights the trade-off between sensitivity and specificity.
 
-6. Results and Insights
+7. Results and Insights
 XGBoost outperformed Logistic Regression, achieving better precision and recall while minimizing false positives.
 Highlighted key transaction features that contribute to fraud detection.
 Explored patterns in flagged fraud transactions to improve detection accuracy.
 
 💻 **Tech Stack**
+
 Programming Languages & Tools
 Python: For end-to-end development.
 Jupyter Notebook: For interactive development and visualization.
@@ -69,6 +71,7 @@ Run the Notebook:
 Open the fraud_ktc.ipynb in Jupyter Notebook or any compatible IDE and execute cells sequentially.
 
 📊 **Results and Observations**
+
 EDA Observations:
 Fraudulent transactions are concentrated in specific transaction types (e.g., TRANSFER and CASH_OUT).
 Fraudulent and non-fraudulent transactions show distinct patterns in origin and destination accounts.
