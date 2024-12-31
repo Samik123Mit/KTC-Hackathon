@@ -1,10 +1,12 @@
-Fraud Detection System - KTC 💳🔍
+**Fraud Detection System - KTC** 💳🔍
+
 This project implements a robust Fraud Detection System for financial transactions using machine learning techniques, including XGBoost, to classify transactions as fraudulent or non-fraudulent. By analyzing transaction patterns and leveraging advanced models, the system ensures high accuracy and provides actionable insights for financial security.
 
-📚 Overview
+📚**** Overview****
 Fraudulent activities in financial transactions pose a significant risk to businesses and customers. This project addresses this challenge using a supervised learning approach, including data preprocessing, exploratory data analysis (EDA), advanced machine learning models, and evaluation metrics to build an effective fraud detection system.
 
-🔑 Key Features
+🔑 **Key Features**
+
 1. Dataset Analysis and Insights
 Dataset: The project uses the dataset PS_20174392719_1491204439457_log.csv, containing anonymized financial transaction data with the following attributes:
 
@@ -17,11 +19,13 @@ Exploratory Data Analysis (EDA):
 Distribution of transaction types.
 Fraud-to-non-fraud ratio.
 Transaction patterns by type and fraud indicators.
+
 2. Data Preprocessing
 Verified dataset integrity by checking for null values.
 Engineered features to analyze fraud-related patterns, including grouping transactions by type and identifying flagged frauds.
 Addressed class imbalance to ensure effective model training.
-3. Machine Learning Modeling
+
+4. Machine Learning Modeling
 Implemented XGBoost (Extreme Gradient Boosting), a powerful and efficient gradient-boosting algorithm, for fraud detection.
 Additionally explored Logistic Regression for baseline comparisons.
 Split the dataset into training and testing sets using an 80:20 ratio.
@@ -29,11 +33,13 @@ Evaluation Metrics:
 Accuracy Score: Assesses overall correctness of the model.
 Precision, Recall, F1-Score: Evaluates performance in fraud classification.
 AUC-ROC Curve: Highlights the trade-off between sensitivity and specificity.
-4. Results and Insights
+
+6. Results and Insights
 XGBoost outperformed Logistic Regression, achieving better precision and recall while minimizing false positives.
 Highlighted key transaction features that contribute to fraud detection.
 Explored patterns in flagged fraud transactions to improve detection accuracy.
-💻 Tech Stack
+
+💻 **Tech Stack**
 Programming Languages & Tools
 Python: For end-to-end development.
 Jupyter Notebook: For interactive development and visualization.
@@ -62,7 +68,7 @@ Place the dataset in the root directory of the project.
 Run the Notebook:
 Open the fraud_ktc.ipynb in Jupyter Notebook or any compatible IDE and execute cells sequentially.
 
-📊 Results and Observations
+📊 **Results and Observations**
 EDA Observations:
 Fraudulent transactions are concentrated in specific transaction types (e.g., TRANSFER and CASH_OUT).
 Fraudulent and non-fraudulent transactions show distinct patterns in origin and destination accounts.
